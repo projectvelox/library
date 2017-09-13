@@ -39,6 +39,9 @@
 					<tr>
 						<th>#</th>
 						<th>Section Name</th>
+						<th>Daily Records</th>
+						<th>Monthly Records</th>
+						<th>Yearly Records</th>
 					</tr>
 					<?php 
 						$i=0;
@@ -48,6 +51,9 @@
 							echo '<tr>';
 							echo '<td>'.$i.'</td>';
 							echo '<td>'.$row['name'].'</td>';
+							echo '<td><a class="btn btn-sm btn-primary" href="specific-day-section.php?name='.$row['name'].'">View</a></td>';
+							echo '<td><a class="btn btn-sm btn-primary" href="specific-month-section.php?name='.$row['name'].'">View</a></td>';
+							echo '<td><a class="btn btn-sm btn-primary" href="specific-year-section.php?name='.$row['name'].'">View</a></td>';
 							echo '</tr>';
 						}
 					?>

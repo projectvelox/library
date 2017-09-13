@@ -80,6 +80,10 @@
 				<img src="images/icons/year.png" class="img-responsive">
 				<h4 class='text-center'><small>Yearly Logs</small></h4></a>
 			</div>
+			<div class="dashboard-icons"><a href="specific-registered-student.php?name=<?=$department; ?>">
+				<img src="images/icons/profile.png" class="img-responsive">
+				<h4 class='text-center'><small>Registered Student</small></h4></a>
+			</div>
 		</div>
 
 	</div>
